@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+/* Header */
+.header {
+    background-image: url("./images/polkaGrapefruit.png");
+    color: white;
+    height: 10vh;
+    line-height: 10vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.header_left {
+    font-size: 1.8em;
+    font-weight: 800;
+}
+/* .header_logo {
+    width: 80px;
+} */
+.header_right {
+    float: right;
+    font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Body */
+.body {
+    min-height: 84vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Footer */
+.footer {
+    background-image: url("./images/polkaGrapefruit.png");
+    color: white;
+    height: 6vh;
+    line-height: 6vh;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* .footer_left {
+    font-size: 30px;
+} */
+.footer_right {
+    float: right;
+    font-weight: 700;
 }
