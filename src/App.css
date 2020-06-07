@@ -1,42 +1,164 @@
-/* Header */
+/* header */
+.header {
+    background-image: url('./images/polkaGrapefruit.png');
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+.logo_img {
+    vertical-align: middle;
+    width: 10vh;
+    height: 10vh;
+}
+.logo_title {
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 2em;
+}
+.menu {
+    list-style: none;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.header li a {
+    display: block;
+    padding: 10px 10px;
+    font-weight: 600;
+}
+.header li a:hover,
+.header .menu-btn:hover {
+    background-color: rgb(250,250,250,0.2);
+} 
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+
+
+.header .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 35px 20px;
+    position: relative;
+    user-select: none;
+}
+  .header .menu-icon .nav-icon {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  .header .menu-icon .nav-icon:before,
+  .header .menu-icon .nav-icon:after {
+    background: #333;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  .header .menu-icon .nav-icon:before {
+    top: 5px;
+  }
+  .header .menu-icon .nav-icon:after {
+    top: -5px;
+  }
+  .header .menu-btn {
+    display: none;
+  }
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+  }
+  .header .menu-btn:checked ~ .menu-icon .nav-icon {
+    background: transparent;
+  }
+  .header .menu-btn:checked ~ .menu-icon .nav-icon:before {
+    transform: rotate(-45deg);
+    top:0;
+  }
+  .header .menu-btn:checked ~ .menu-icon .nav-icon:after {
+    transform: rotate(45deg);
+    top:0;
+  }
+  @media (min-width: 48em) {
+    .header li {
+      float: left;
+    }
+    .header li a {
+      padding: 30px 30px;
+    }
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+    .header .menu-icon {
+      display: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+  
+
+/* Header
+.header {
+    background-image: url('./images/polkaGrapefruit.png');
+    color: white;
+    height: 10vh;
+    line-height: 10vh;
+}
 .header {
     background-image: url("./images/polkaGrapefruit.png");
     color: white;
     height: 10vh;
     line-height: 10vh;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 .header_left {
     font-size: 1.8em;
     font-weight: 800;
 }
-/* .header_logo {
-    width: 80px;
-} */
+.header_logo {
+    width: 10vh;
+    height: 10vh;
+}
 .header_right {
     float: right;
     font-weight: 700;
 }
-
-/* Body */
 .body {
     min-height: 84vh;
 }
-
-/* Footer */
 .footer {
     background-image: url("./images/polkaGrapefruit.png");
     color: white;
     height: 6vh;
     line-height: 6vh;
-    padding-left: 20px;
-    padding-right: 20px;
 }
-/* .footer_left {
+.footer_left {
     font-size: 30px;
-} */
+}
 .footer_right {
     float: right;
     font-weight: 700;
-}
+} */
