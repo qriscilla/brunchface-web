@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/brunchface-web/precache-manifest.d96312f881e2f403e6dc10dd7c5ac40f.js"
+  "/brunchface-web/precache-manifest.8c6c65eab980dbfa264b38ad3a692d81.js"
 );
 
 self.addEventListener('message', (event) => {

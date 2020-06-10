@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "585ea0ef0e7c8fd1ea04a7a7dfdb8fad",
+    "revision": "aba9a1be1d8d6c04ce9ef464e06e4d73",
     "url": "/brunchface-web/index.html"
   },
   {
-    "revision": "c13b515ff1afe2c6a878",
-    "url": "/brunchface-web/static/css/main.e84f7d17.chunk.css"
+    "revision": "47e0f90998bdd31eca86",
+    "url": "/brunchface-web/static/css/main.7e40fd82.chunk.css"
   },
   {
     "revision": "34e7e02f5ea266c54528",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/brunchface-web/static/js/2.b87b9ae5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c13b515ff1afe2c6a878",
-    "url": "/brunchface-web/static/js/main.28bc06b8.chunk.js"
+    "revision": "47e0f90998bdd31eca86",
+    "url": "/brunchface-web/static/js/main.46ed47ca.chunk.js"
   },
   {
     "revision": "fb2a42aa59ea2bc5d24a",

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/brunchface-web/static/css/main.e84f7d17.chunk.css",
-    "main.js": "/brunchface-web/static/js/main.28bc06b8.chunk.js",
-    "main.js.map": "/brunchface-web/static/js/main.28bc06b8.chunk.js.map",
+    "main.css": "/brunchface-web/static/css/main.7e40fd82.chunk.css",
+    "main.js": "/brunchface-web/static/js/main.46ed47ca.chunk.js",
+    "main.js.map": "/brunchface-web/static/js/main.46ed47ca.chunk.js.map",
     "runtime-main.js": "/brunchface-web/static/js/runtime-main.db573ebc.js",
     "runtime-main.js.map": "/brunchface-web/static/js/runtime-main.db573ebc.js.map",
     "static/js/2.b87b9ae5.chunk.js": "/brunchface-web/static/js/2.b87b9ae5.chunk.js",
     "static/js/2.b87b9ae5.chunk.js.map": "/brunchface-web/static/js/2.b87b9ae5.chunk.js.map",
     "index.html": "/brunchface-web/index.html",
-    "precache-manifest.d96312f881e2f403e6dc10dd7c5ac40f.js": "/brunchface-web/precache-manifest.d96312f881e2f403e6dc10dd7c5ac40f.js",
+    "precache-manifest.8c6c65eab980dbfa264b38ad3a692d81.js": "/brunchface-web/precache-manifest.8c6c65eab980dbfa264b38ad3a692d81.js",
     "service-worker.js": "/brunchface-web/service-worker.js",
-    "static/css/main.e84f7d17.chunk.css.map": "/brunchface-web/static/css/main.e84f7d17.chunk.css.map",
+    "static/css/main.7e40fd82.chunk.css.map": "/brunchface-web/static/css/main.7e40fd82.chunk.css.map",
     "static/js/2.b87b9ae5.chunk.js.LICENSE.txt": "/brunchface-web/static/js/2.b87b9ae5.chunk.js.LICENSE.txt",
     "static/media/App.css": "/brunchface-web/static/media/polkaGrapefruit.e0203f57.png",
     "static/media/toast.png": "/brunchface-web/static/media/toast.66b15967.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.db573ebc.js",
     "static/js/2.b87b9ae5.chunk.js",
-    "static/css/main.e84f7d17.chunk.css",
-    "static/js/main.28bc06b8.chunk.js"
+    "static/css/main.7e40fd82.chunk.css",
+    "static/js/main.46ed47ca.chunk.js"
   ]
 }
