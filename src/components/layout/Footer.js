@@ -7,8 +7,8 @@ function Footer() {
         <div className='footer'>
 
             <span className='footer_left'>
-                <FacebookIcon />
-                <InstagramIcon />
+                <FacebookIcon className='footer_icons'/>
+                <InstagramIcon className='footer_icons'/>
             </span>
 
             <span className='footer_right'>
