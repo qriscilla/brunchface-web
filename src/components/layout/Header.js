@@ -8,7 +8,7 @@ function Header() {
 
             <a href='/'>
                 <img src={toast} alt={toast} className='header_img' />
-                <span className='header_title'>BrunchFace</span>
+                <span className='header_title'>BRUNCHFACE</span>
             </a>
 
             <input className="menu-btn" type="checkbox" id="menu-btn" />

@@ -67,7 +67,6 @@
 }
 .menu-btn:checked ~ .header_menu {
   max-height: 240px;
-  padding-bottom: 15px;
 }
 .menu-btn:checked ~ .menu-icon .nav-icon {
   background: transparent;
