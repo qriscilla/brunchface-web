@@ -36,118 +36,154 @@ function About() {
             
             <Grid item container spacing={3} style={{textAlign:'center'}}>
                 <Grid item xs={3}>
-                    <div className="flip-box">
-                        <div className="flip-box-inner">
-                            <div className="flip-box-front">
-                                <img src={peter} alt={peter} style={{width:'20vw'}} />
+                    <div className="flip">
+                        <div className="inner">
+                            <div className="front">
+                                <img src={peter} alt={peter} style={{width:'20vw',height:'35vh'}} />
                             </div>
-                            <div className="flip-box-back">
-                                <h2>Name</h2>
-                                <p>Title</p>
-                            </div>
-                        </div>
-                    </div>
-                </Grid>
-                <Grid item xs={3}>
-                    <div className="flip-box">
-                        <div className="flip-box-inner">
-                            <div className="flip-box-front">
-                                <img src={xinyi} alt={xinyi} style={{width:'20vw'}} />
-                            </div>
-                            <div className="flip-box-back">
-                                <h2>Name</h2>
-                                <p>Title</p>
+                            <div className="back">
+                                <h2 className='back-name'>PETER CHUNG</h2>
+                                <span className='back-title'>CEO</span>
+                                <div className='back-favorite-brunch'>
+                                    <p className='back-favorite'>Favorite Brunch</p>
+                                    <span className='back-brunch'>Eggs Benedict</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </Grid>
                 <Grid item xs={3}>
-                    <div className="flip-box">
-                        <div className="flip-box-inner">
-                            <div className="flip-box-front">
-                                <img src={jon} alt={jon} style={{width:'20vw'}} />
+                    <div className="flip">
+                        <div className="inner">
+                            <div className="front">
+                                <img src={xinyi} alt={xinyi} style={{width:'20vw',height:'35vh'}} />
                             </div>
-                            <div className="flip-box-back">
-                                <h2>Name</h2>
-                                <p>Title</p>
-                            </div>
-                        </div>
-                    </div>
-                </Grid>
-                <Grid item xs={3}>
-                    <div className="flip-box">
-                        <div className="flip-box-inner">
-                            <div className="flip-box-front">
-                                <img src={jolene} alt={jolene} style={{width:'20vw'}} />
-                            </div>
-                            <div className="flip-box-back">
-                                <h2>Name</h2>
-                                <p>Title</p>
+                            <div className="back">
+                                <h2 className='back-name'>XINYI WANG</h2>
+                                <span className='back-title'>CTO</span>
+                                <div className='back-favorite-brunch'>
+                                    <p className='back-favorite'>Favorite Brunch</p>
+                                    <span className='back-brunch'>Eggs Benedict</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </Grid>
                 <Grid item xs={3}>
-                    <div className="flip-box">
-                        <div className="flip-box-inner">
-                            <div className="flip-box-front">
-                                <img src={priscilla} alt={priscilla} style={{width:'20vw'}} />
+                    <div className="flip">
+                        <div className="inner">
+                            <div className="front">
+                                <img src={jon} alt={jon} style={{width:'20vw',height:'35vh'}} />
                             </div>
-                            <div className="flip-box-back">
-                                <h2>Name</h2>
-                                <p>Title</p>
-                            </div>
-                        </div>
-                    </div>
-                </Grid>
-                <Grid item xs={3}>
-                    <div className="flip-box">
-                        <div className="flip-box-inner">
-                            <div className="flip-box-front">
-                                <img src={sharon} alt={sharon} style={{width:'20vw'}} />
-                            </div>
-                            <div className="flip-box-back">
-                                <h2>Name</h2>
-                                <p>Title</p>
+                            <div className="back">
+                                <h2 className='back-name'>JON CHUNG</h2>
+                                <span className='back-title'>Game Design Lead</span>
+                                <div className='back-favorite-brunch'>
+                                    <p className='back-favorite'>Favorite Brunch</p>
+                                    <span className='back-brunch'>Eggs Benedict</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </Grid>
                 <Grid item xs={3}>
-                    <div className="flip-box">
-                        <div className="flip-box-inner">
-                            <div className="flip-box-front">
-                                <img src={dianne} alt={dianne} style={{width:'20vw'}} />
+                    <div className="flip">
+                        <div className="inner">
+                            <div className="front">
+                                <img src={jolene} alt={jolene} style={{width:'20vw',height:'35vh'}} />
                             </div>
-                            <div className="flip-box-back">
-                                <h2>Name</h2>
-                                <p>Title</p>
-                            </div>
-                        </div>
-                    </div>
-                </Grid>
-                <Grid item xs={3}>
-                    <div className="flip-box">
-                        <div className="flip-box-inner">
-                            <div className="flip-box-front">
-                                <img src={vicky} alt={vicky} style={{width:'20vw'}} />
-                            </div>
-                            <div className="flip-box-back">
-                                <h2>Name</h2>
-                                <p>Title</p>
+                            <div className="back">
+                                <h2 className='back-name'>JOLENE ZOU</h2>
+                                <span className='back-title'>Financial Analyst</span>
+                                <div className='back-favorite-brunch'>
+                                    <p className='back-favorite'>Favorite Brunch</p>
+                                    <span className='back-brunch'>Eggs Benedict</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </Grid>
                 <Grid item xs={3}>
-                    <div className="flip-box">
-                        <div className="flip-box-inner">
-                            <div className="flip-box-front">
-                                <img src={tiffanie} alt={tiffanie} style={{width:'20vw'}} />
+                    <div className="flip">
+                        <div className="inner">
+                            <div className="front">
+                                <img src={priscilla} alt={priscilla} style={{width:'20vw',height:'35vh'}} />
                             </div>
-                            <div className="flip-box-back">
-                                <h2>Name</h2>
-                                <p>Title</p>
+                            <div className="back">
+                                <h2 className='back-name'>PRISCILLA WHANG</h2>
+                                <span className='back-title'>Web Developer</span>
+                                <div className='back-favorite-brunch'>
+                                    <p className='back-favorite'>Favorite Brunch</p>
+                                    <span className='back-brunch'>Eggs Benedict</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </Grid>
+                <Grid item xs={3}>
+                    <div className="flip">
+                        <div className="inner">
+                            <div className="front">
+                                <img src={sharon} alt={sharon} style={{width:'20vw',height:'35vh'}} />
+                            </div>
+                            <div className="back">
+                                <h2 className='back-name'>SHARON YOU</h2>
+                                <span className='back-title'>Software Engineer Fellow</span>
+                                <div className='back-favorite-brunch'>
+                                    <p className='back-favorite'>Favorite Brunch</p>
+                                    <span className='back-brunch'>Eggs Benedict</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </Grid>
+                <Grid item xs={3}>
+                    <div className="flip">
+                        <div className="inner">
+                            <div className="front">
+                                <img src={dianne} alt={dianne} style={{width:'20vw',height:'35vh'}} />
+                            </div>
+                            <div className="back">
+                                <h2 className='back-name'>DIANNE SANTOS</h2>
+                                <span className='back-title'>Software Engineer Fellow</span>
+                                <div className='back-favorite-brunch'>
+                                    <p className='back-favorite'>Favorite Brunch</p>
+                                    <span className='back-brunch'>Eggs Benedict</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </Grid>
+                <Grid item xs={3}>
+                    <div className="flip">
+                        <div className="inner">
+                            <div className="front">
+                                <img src={vicky} alt={vicky} style={{width:'20vw',height:'35vh'}} />
+                            </div>
+                            <div className="back">
+                                <h2 className='back-name'>VICKY BANG</h2>
+                                <span className='back-title'>Software Engineer Fellow</span>
+                                <div className='back-favorite-brunch'>
+                                    <p className='back-favorite'>Favorite Brunch</p>
+                                    <span className='back-brunch'>Eggs Benedict</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </Grid>
+                <Grid item xs={3}>
+                    <div className="flip">
+                        <div className="inner">
+                            <div className="front">
+                                <img src={tiffanie} alt={tiffanie} style={{width:'20vw',height:'35vh'}} />
+                            </div>
+                            <div className="back">
+                                <h2 className='back-name'>TIFFANIE CHOI</h2>
+                                <span className='back-title'>Software Engineer Fellow</span>
+                                <div className='back-favorite-brunch'>
+                                    <p className='back-favorite'>Favorite Brunch</p>
+                                    <span className='back-brunch'>Eggs Benedict</span>
+                                </div>
                             </div>
                         </div>
                     </div>
